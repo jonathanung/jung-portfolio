@@ -1,0 +1,151 @@
+
+.App {
+  text-align: center;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vw;
+  background-image: url("https://cdn.discordapp.com/attachments/332270672967630850/1049475147922411560/9EEC7E61-927D-4E13-B201-C5EDE4CAF2F9.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+.homepage{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  margin: 30px;
+}
+
+.profile{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.profile-img{
+  display:block;
+  max-height: 50vh;
+  width: auto !important;
+}
+
+#profile-card{
+  align-self: self-start;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.links-list-item{
+  margin-top: 1vh !important;
+}
+
+.links-list-item-img{
+  width: 4vh !important;
+  height: 4vh !important;
+}
+
+
+.projects {
+  margin-top: 10vh;
+  display: flex;
+  width: 90vw;
+  flex-direction: column;
+}
+
+.left-project{
+  align-self: self-start;
+}
+.right-project{
+  align-self: self-end;
+}
+
+.left-project, .right-project {
+  margin-bottom: 10vh;
+}
+
+.project-body{
+  display:flex;
+  flex-direction: row;
+}
+
+.project-body-left{
+  flex: 3;
+  display:flex;
+  align-items: center;
+}
+
+.project-body-right{
+  flex: 1;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-body-vert{
+  display:flex;
+  flex-direction: column;
+}
+
+.project-body-bottom{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+.project-body-bottom-upper, .project-body-bottom-lower{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 10px;
+}
+
+.project-description{
+  flex:5;
+}
+.project-links{
+  flex:3;
+}
+
+.project-github-link {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-logo{
+  width: 24px !important;
+  length: 24px !important;
+  margin-right: 5px;
+}
+
+.technologies-hoz {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.project-body-top{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.project-img-big {
+  display:block;
+  max-height: 60vh;
+  max-width: 80vw;
+  height: auto !important;
+  width: auto !important;
+}
+
+.one-tech {
+  margin-left: 4px;
+}
